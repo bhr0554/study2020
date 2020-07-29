@@ -29,7 +29,7 @@ $ docker pull nginx:latest (최신버전의 nginx)
 $ docker run --name some-nginx -v /home/nginx:/usr/share/nginx/html:ro -d -p 80:80 nginx  
 $ vi /home/nginx/index.html (nginx url 접속 시 index 페이지)  
 $ docker exec -it 6b3e4f73dd81 /bin/bash (Docker Container 경로 진입)  
-$ root@6b3e4f73dd81:/# exit (컨테이너 나가기)  
+root@6b3e4f73dd81:/# exit (컨테이너 나가기)  
   
     
 
